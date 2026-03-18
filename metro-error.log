@@ -1,0 +1,47 @@
+
+                        ▒▒▓▓▓▓▒▒
+                     ▒▓▓▓▒▒░░▒▒▓▓▓▒
+                  ▒▓▓▓▓░░░▒▒▒▒░░░▓▓▓▓▒
+                 ▓▓▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▓▓
+                 ▓▓░░░░░▒▓▓▓▓▓▓▒░░░░░▓▓
+                 ▓▓░░▓▓▒░░░▒▒░░░▒▓▒░░▓▓
+                 ▓▓░░▓▓▓▓▓▒▒▒▒▓▓▓▓▒░░▓▓
+                 ▓▓░░▓▓▓▓▓▓▓▓▓▓▓▓▓▒░░▓▓
+                 ▓▓▒░░▒▒▓▓▓▓▓▓▓▓▒░░░▒▓▓
+                  ▒▓▓▓▒░░░▒▓▓▒░░░▒▓▓▓▒
+                     ▒▓▓▓▒░░░░▒▓▓▓▒
+                        ▒▒▓▓▓▓▒▒
+
+
+                Welcome to Metro v0.83.5
+              Fast - Scalable - Integrated
+
+
+[31m[1merror[22m[39m [0mUnable to resolve module react-native-vector-icons/MaterialIcons from C:\Users\WIN10\Documents\Tally App\InlandTallyApp\src\screens\LoadingStock.js: react-native-vector-icons/MaterialIcons could not be found within the project or in these directories:
+  node_modules
+[0m [90m 1 |[39m [36mimport[39m [33mReact[39m [36mfrom[39m [32m'react'[39m[33m;[39m
+ [90m 2 |[39m [36mimport[39m { [33mView[39m[33m,[39m [33mStyleSheet[39m[33m,[39m [33mSafeAreaView[39m[33m,[39m [33mScrollView[39m[33m,[39m [33mTouchableOpacity[39m } [36mfrom[39m [32m'react-native'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m [33mIcon[39m [36mfrom[39m [32m'react-native-vector-icons/MaterialIcons'[39m[33m;[39m
+ [90m   |[39m                   [31m[1m^[22m[39m
+ [90m 4 |[39m [36mimport[39m [33mHeader[39m [36mfrom[39m [32m'../components/Header'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m [33mInputField[39m [36mfrom[39m [32m'../components/InputField'[39m[33m;[39m
+ [90m 6 |[39m [36mimport[39m [33mDropdown[39m [36mfrom[39m [32m'../components/Dropdown'[39m[33m;[39m[0m.[0m
+[0mError: Unable to resolve module react-native-vector-icons/MaterialIcons from C:\Users\WIN10\Documents\Tally App\InlandTallyApp\src\screens\LoadingStock.js: react-native-vector-icons/MaterialIcons could not be found within the project or in these directories:
+  node_modules
+[0m [90m 1 |[39m [36mimport[39m [33mReact[39m [36mfrom[39m [32m'react'[39m[33m;[39m
+ [90m 2 |[39m [36mimport[39m { [33mView[39m[33m,[39m [33mStyleSheet[39m[33m,[39m [33mSafeAreaView[39m[33m,[39m [33mScrollView[39m[33m,[39m [33mTouchableOpacity[39m } [36mfrom[39m [32m'react-native'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m [33mIcon[39m [36mfrom[39m [32m'react-native-vector-icons/MaterialIcons'[39m[33m;[39m
+ [90m   |[39m                   [31m[1m^[22m[39m
+ [90m 4 |[39m [36mimport[39m [33mHeader[39m [36mfrom[39m [32m'../components/Header'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m [33mInputField[39m [36mfrom[39m [32m'../components/InputField'[39m[33m;[39m
+ [90m 6 |[39m [36mimport[39m [33mDropdown[39m [36mfrom[39m [32m'../components/Dropdown'[39m[33m;[39m[0m
+    at ModuleResolver.resolveDependency (C:\Users\WIN10\Documents\Tally App\InlandTallyApp\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:178:15)
+    at DependencyGraph.resolveDependency (C:\Users\WIN10\Documents\Tally App\InlandTallyApp\node_modules\metro\src\node-haste\DependencyGraph.js:252:43)
+    at C:\Users\WIN10\Documents\Tally App\InlandTallyApp\node_modules\metro\src\lib\transformHelpers.js:165:21
+    at resolveDependencies (C:\Users\WIN10\Documents\Tally App\InlandTallyApp\node_modules\metro\src\DeltaBundler\buildSubgraph.js:43:25)
+    at visit (C:\Users\WIN10\Documents\Tally App\InlandTallyApp\node_modules\metro\src\DeltaBundler\buildSubgraph.js:81:30)
+    at async Promise.all (index 4)
+    at async visit (C:\Users\WIN10\Documents\Tally App\InlandTallyApp\node_modules\metro\src\DeltaBundler\buildSubgraph.js:90:5)
+    at async Promise.all (index 2)
+    at async visit (C:\Users\WIN10\Documents\Tally App\InlandTallyApp\node_modules\metro\src\DeltaBundler\buildSubgraph.js:90:5)
+    at async Promise.all (index 0)[0m
